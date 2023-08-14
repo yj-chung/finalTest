@@ -1,0 +1,90 @@
+저장위치
+ cd GBHTMLclass.github.io
+PS C:\Users\ict> cd GBHTMLclass.github.io
+
+
+
+●깃클론하기
+1. 클론할 폴더를 준비.
+2. 파워쉘에서 해당 폴더로 이동.
+3. git init
+4. git clone 클론할 주소 폴더명(선택사항)
+
+(4-1.리모트를 안했다면 git remote add origin)
+5. git checkout -b 브렌치이름
+          브렌치생성과 체크아웃이 동시에 일어나며 아무것도 게재되지 않은 상황에서는 조회도 안되는듯?
+
+
+●git hub에 업로드하기
+브랜치 이동하고 (5)
+내 브렌치에 소스코드 업데이트 하기.
+5. git checkout 브렌치이름
+6. git add 파일이름(혹은 *)
+7. git commit -m "커밋할제목"
+8. git push origin 브렌치이름
+
+
+마스터 브렌치에 소스 가져오기 
+9. git pull origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://zeddios.tistory.com/1222
+
+1. 새로운 Repository 만들기
+
+2. Repository 이름을 설정
+
+username.github.io 이런 식으로 생성.
+
+3. clone하기
+
+git clone 복사한 주소
+
+4.폴더 열기
+
+5.clone한 폴더로 이동한 다음 파일 생성
+
+cd username.github.io
+<터미널에서 방금 clone한 폴더의 경로로 이동>
+
+echo "Hello World" > index.html
+<파일 하나 생성>
+
+6. Push
+
+git add --all
+git commit -m "Initial commit"
+git push -u origin main
+
+중간에 글로벌 뭐시기 나오는데 사진확인하고 집에서 알아서 해보기
+
+클론을 여러곳에서 할 수 있는건가??
+저장된 걸 우리집 컴터에서도 열 수 있는건가?
+이건 오늘 시도해보자.
+
+
+
+
+
+
+https://easydevd.github.io/develop/2020-01-07-secondpost/
+깃블로그 꾸미기
+
+내 깃
+https://github.com/yj-chung
+
+
+하나의 레퍼지토리에 여러 클론하기
+https://cosmosproject.tistory.com/137
